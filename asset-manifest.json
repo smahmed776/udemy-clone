@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/udemy-clone/static/css/main.0bcad57e.chunk.css",
-    "main.js": "/udemy-clone/static/js/main.87d461f3.chunk.js",
-    "main.js.map": "/udemy-clone/static/js/main.87d461f3.chunk.js.map",
-    "runtime-main.js": "/udemy-clone/static/js/runtime-main.657f3aa8.js",
-    "runtime-main.js.map": "/udemy-clone/static/js/runtime-main.657f3aa8.js.map",
+    "main.css": "/udemy-clone/static/css/main.2e183bd1.chunk.css",
+    "main.js": "/udemy-clone/static/js/main.8c0fe4bd.chunk.js",
+    "main.js.map": "/udemy-clone/static/js/main.8c0fe4bd.chunk.js.map",
+    "runtime-main.js": "/udemy-clone/static/js/runtime-main.3188f2f7.js",
+    "runtime-main.js.map": "/udemy-clone/static/js/runtime-main.3188f2f7.js.map",
     "static/css/2.ca1f57c3.chunk.css": "/udemy-clone/static/css/2.ca1f57c3.chunk.css",
-    "static/js/2.8ccfd927.chunk.js": "/udemy-clone/static/js/2.8ccfd927.chunk.js",
-    "static/js/2.8ccfd927.chunk.js.map": "/udemy-clone/static/js/2.8ccfd927.chunk.js.map",
-    "static/js/3.d69e91b9.chunk.js": "/udemy-clone/static/js/3.d69e91b9.chunk.js",
-    "static/js/3.d69e91b9.chunk.js.map": "/udemy-clone/static/js/3.d69e91b9.chunk.js.map",
+    "static/js/2.2c0dad76.chunk.js": "/udemy-clone/static/js/2.2c0dad76.chunk.js",
+    "static/js/2.2c0dad76.chunk.js.map": "/udemy-clone/static/js/2.2c0dad76.chunk.js.map",
+    "static/js/3.b39a72e5.chunk.js": "/udemy-clone/static/js/3.b39a72e5.chunk.js",
+    "static/js/3.b39a72e5.chunk.js.map": "/udemy-clone/static/js/3.b39a72e5.chunk.js.map",
     "index.html": "/udemy-clone/index.html",
     "static/css/2.ca1f57c3.chunk.css.map": "/udemy-clone/static/css/2.ca1f57c3.chunk.css.map",
-    "static/css/main.0bcad57e.chunk.css.map": "/udemy-clone/static/css/main.0bcad57e.chunk.css.map",
-    "static/js/2.8ccfd927.chunk.js.LICENSE.txt": "/udemy-clone/static/js/2.8ccfd927.chunk.js.LICENSE.txt",
+    "static/css/main.2e183bd1.chunk.css.map": "/udemy-clone/static/css/main.2e183bd1.chunk.css.map",
+    "static/js/2.2c0dad76.chunk.js.LICENSE.txt": "/udemy-clone/static/js/2.2c0dad76.chunk.js.LICENSE.txt",
     "static/media/bootstrap-icons.css": "/udemy-clone/static/media/bootstrap-icons.dfd0ea12.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.657f3aa8.js",
+    "static/js/runtime-main.3188f2f7.js",
     "static/css/2.ca1f57c3.chunk.css",
-    "static/js/2.8ccfd927.chunk.js",
-    "static/css/main.0bcad57e.chunk.css",
-    "static/js/main.87d461f3.chunk.js"
+    "static/js/2.2c0dad76.chunk.js",
+    "static/css/main.2e183bd1.chunk.css",
+    "static/js/main.8c0fe4bd.chunk.js"
   ]
 }
