@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -181,10 +182,11 @@ const Header = () => {
     
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-white container-fluid border-bottom sticky-top border-bottom" aria-label="Main navigation">
+        <>
+        <nav className="navbar navbar-light bg-white container-fluid border-bottom sticky-top border-bottom" aria-label="Main navigation">
             <button 
                 type="button" 
-                className="btn navbar-toggler navoffcanvasbtn" 
+                className="btn navoffcanvasbtn" 
                 data-bs-toggle="offcanvas" 
                 data-bs-target="#offcanvasCollapse" 
                 aria-controls="offcanvasCollapse"
@@ -253,15 +255,41 @@ const Header = () => {
             </div>        
 
             <div className="d-flex justify-content-evenly">
-                <button className="btn">
-                    <span className="bi bi-search"></span>
+                <button
+                    className="btn"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#searchmodal">
+                    <span className="bi bi-search" style={{pointerEvents: "none"}}></span>
                 </button>
 
-                <button className="btn">
+
+                <Link to="/cart" className="btn">
                     <span className="bi bi-cart3"></span>
-                </button>
+                </Link>
             </div>
         </nav>
+        <div class="modal" id="searchmodal" tabindex="-1" aria-labelledby="searchmodalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-md-down">
+                <div class="modal-content">
+                    <div class="modal-header search-head">
+                        <form action="#" style={{width: "85%"}}>
+                            <input type="search" className="form-control d-inline w-75 search-inp" name="search" placeholder="Search for anything..." autoComplete />
+                            <button type="submit" className="btn d-inline p-0 ps-2">
+
+                            <span className=" bi bi-search"></span> 
+                            </button>
+                        </form>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </>
     )
 }
 
